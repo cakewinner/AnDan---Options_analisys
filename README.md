@@ -8,7 +8,7 @@
 ## Что сделано на момент чекпоинта
 
 ## Источники данных
-https://www.cboe.com/us/options/market_statistics/flex_trade_reports/
+https://www.cboe.com/us/options/market_statistics/flex_trade_reports/ \
 https://ru.tradingview.com/
 
 ## План

@@ -62,12 +62,12 @@ $$
 d_2 = d_1 - \sigma \sqrt{T - t}
 $$
 
-| «Грек» | Представление в виде частной производной | Ошибочный call | Ошибочный put |
+$| «Грек» | Представление в виде частной производной | Ошибочный call | Ошибочный put |
 |--------|-----------------------------------------|---------------|--------------|
 | ДЕЛЬТА | \(\frac{\partial c}{\partial S}\) | \(N(d_1)\) | \(-N(-d_1) = N(d_1) - 1\) |
 | ГАММА | \(\frac{\partial^2 c}{\partial S^2}\) | \(\frac{N'(d_1)}{S \sigma \sqrt{T}}\) | |
 | ВЕГА[3][4] | \(\frac{\partial c}{\partial \sigma}\) | \(S N'(d_1) \sqrt{T}\) | |
-| ТЕТА | \(\frac{\partial c}{\partial t}\) | \(-\frac{S N'(d_1) \sigma}{2 \sqrt{T}} - rKe^{-r(T)} N(d_2)\) | \(-\frac{S N'(d_1) \sigma}{2 \sqrt{T}} + rKe^{-r(T)} N(-d_2)\) |
+| ТЕТА | \(\frac{\partial c}{\partial t}\) | \(-\frac{S N'(d_1) \sigma}{2 \sqrt{T}} - rKe^{-r(T)} N(d_2)\) | \(-\frac{S N'(d_1) \sigma}{2 \sqrt{T}} + rKe^{-r(T)} N(-d_2)\) |$
 
 Обозначения:
 - $C(S, t)$ — цена европейского опциона колл;
